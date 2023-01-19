@@ -1,0 +1,30 @@
+<htnml>
+    <head>
+        <style>
+            fieldset{
+                width: fit-content;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+            <label for="name">First Name:</label>
+            <!--<label for="name">First Name</label>-->
+            <input type="text" id="name" name="go" placeholder="First Name" required><br>
+            <label for="2name">Last Name:</label>
+            <input type="text" id="2name" name="and" required><br>
+            
+            <lable for="3name" >Third Name:</lable>
+            <input type="text" id="3name" name="come" pattern="[A-Za-z]+"maxlength="10"><br>
+            <input type="submit" value="Submit"><br></fieldset>
+            <label for="comments">Comments:</label><br>
+            
+            <textarea rows="10" cols="50" id="comments" name="comments">
+
+            </textarea>
+            
+        </form>
+    </body>
+</htnml>
